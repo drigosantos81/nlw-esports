@@ -11,7 +11,7 @@ function App() {
         <img src={logoImg} alt="" />
         
         <h1 className='text-6xl text-white font-black mt-20'>
-          Seu <span className='bg-nlw-gradient bg-clip-text'>duo</span> está aqui.
+          Seu <span className='bg-sky-800 bg-clip-text'>duo</span> está aqui.
         </h1>
 
         <div className="grid grid-cols-6 gap-6 mt-16">
