@@ -20,10 +20,11 @@ model Ad {
   name            String
   yearsPlaying    Int
   discord         String
+  weekDays        String
   hourStart       Int
   HourEnd         Int
   useVoiceChannel Boolean
   createdAt       DateTime @default(now())
 
-  game Game @relation(fields: [gameId], references: [id])
+  game Game? @relation(fields: [gameId], references: [id])
 }
